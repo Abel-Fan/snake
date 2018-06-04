@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>贪吃蛇</title>
+	<link rel="stylesheet" href="css/index.css">
+	<script src="js/index.js"></script>
+</head>
+<body>
+	<div class="screen">
+		
+	</div>
+</body>
+<script>
+	let snake = new Snake()
+	snake.screen = document.querySelector(".screen")
+	snake.createDiv()
+	snake.createSnake()
+	snake.createFood()
+	snake.run()
+</script>
+</html>
